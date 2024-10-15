@@ -1,6 +1,6 @@
 
 
-<img src="./cast.gif" alt="just a gif" width="500">
+<img src="./cast.gif" alt="just a gif" width="800" align="center">
 <div align="center">
 
 | GitHub Stats | Top Languages |
