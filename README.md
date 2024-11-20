@@ -19,7 +19,6 @@
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
-        <iframe src="https://smallghost42.github.io/myrepo/table.html" width="100%" height="400" style="border:none;"></iframe>
       </td>
     </tr>
   </table>
