@@ -36,7 +36,7 @@ I’m a computer science student with a passion for low-level languages and cust
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-seven-chi-88.vercel.app/api?username=smallghost42&show_icons=true&count_private=true&hide_title=true&theme=radical" />
+           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-smallghost01s-projects.vercel.app/api?username=smallghost42&show_icons=true&count_private=true&hide_title=true&theme=radical" />
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
