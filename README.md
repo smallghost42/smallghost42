@@ -15,7 +15,7 @@
     <tr>
       <td colspan="2">
         <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smallghost42&theme=nightowl" alt="Top Languages">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=smallghost42&theme=nightowl&count_private=true" alt="Top Languages">
         </a>
       </td>
     </tr>
