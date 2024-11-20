@@ -41,20 +41,14 @@ I’m a computer science student with a passion for low-level languages and cust
           <img src="https://streak-stats.demolab.com/?user=smallghost42&theme=outrun&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
         </a>
       </td>
-    </tr>
-  </table>
-     <table style="width: 100%; height: 100%;">
-    <tr>
-      <td>
-        <a href="https://github.com/smallghost42/github-readme-stats">
+       <td>
+          <a href="https://github.com/smallghost42/github-readme-stats">
           <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117" alt="Top Languages">
         </a>
-      </td>
-      <td style="width: 50%; height: 150px;">
-         <a href="https://github.com/jamesgeorge007/github-activity-readme">
-  <img src="https://github-readme-activity-graph-git-main-smallghost01s-projects.vercel.app/graph?username=smallghost42&theme=merko&hide_title=true&hide_border=true" alt="Activity Graph">
-</a>
-      </td>
+       </td>
     </tr>
   </table>
+         <a href="https://github.com/jamesgeorge007/github-activity-readme">
+  <img src="https://github-readme-activity-graph-git-main-smallghost01s-projects.vercel.app/graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
+</a>
 </div>
