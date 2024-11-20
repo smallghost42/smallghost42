@@ -33,24 +33,27 @@ I’m a computer science student with a passion for low-level languages and cust
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&theme=nightowl&bg_color=0D1117&border_color=0D1117" />
+           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&theme=outrun&bg_color=0D1117&border_color=0D1117" />
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-          <img src="https://streak-stats.demolab.com/?user=smallghost42&theme=nightowl&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
+          <img src="https://streak-stats.demolab.com/?user=smallghost42&theme=outrun&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
         </a>
       </td>
     </tr>
   </table>
      <table style="width: 100%; height: 100%;">
-    <tr style="background-color:#0D1117">
-      <td style="width: 50%; height: 200px;">
+    <tr>
+      <td>
         <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=nightowl&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117" alt="Top Languages">
+          <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117" alt="Top Languages">
         </a>
       </td>
-      <td style="width: 50%; height: 200px;">
+      <td style="width: 50%; height: 150px;">
+         <a href="https://github.com/jamesgeorge007/github-activity-readme">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=smallghost42&theme=react-dark" alt="Activity Graph">
+</a>
       </td>
     </tr>
   </table>
