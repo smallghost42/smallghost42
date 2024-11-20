@@ -52,7 +52,7 @@ I’m a computer science student with a passion for low-level languages and cust
       </td>
       <td style="width: 50%; height: 150px;">
          <a href="https://github.com/jamesgeorge007/github-activity-readme">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=smallghost42&theme=react-dark" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph-git-main-smallghost01s-projects.vercel.app//graph?username=smallghost42&theme=react-dark&area=true&area_color=121D2F" alt="Activity Graph">
 </a>
       </td>
     </tr>
