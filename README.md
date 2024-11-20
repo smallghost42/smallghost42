@@ -11,8 +11,8 @@ I’m a computer science student with a passion for low-level languages and cust
    </p>
 
 ---
-
 ### 🛠️ Languages and Tools
+<p align="center">   
 <img align="left" alt="C" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
 <img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
 <img align="left" alt="Lua" width="30px" style="padding-right:10px;" src="https://img.icons8.com/?size=100&id=hUJLMnqf5Rhd&format=png&color=000000" />
@@ -25,7 +25,8 @@ I’m a computer science student with a passion for low-level languages and cust
 <img align="left" alt="Neovim" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" />
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-<br />
+</p>
+</br>
 
 #
 <div align="center">
@@ -41,14 +42,20 @@ I’m a computer science student with a passion for low-level languages and cust
           <img src="https://streak-stats.demolab.com/?user=smallghost42&theme=outrun&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
         </a>
       </td>
-       <td>
-          <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117" alt="Top Languages">
-        </a>
-       </td>
     </tr>
   </table>
+   <table>
+      <tr>
+         <td>
          <a href="https://github.com/jamesgeorge007/github-activity-readme">
   <img src="https://github-readme-activity-graph-git-main-smallghost01s-projects.vercel.app/graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
 </a>
+         </td>
+         <td>
+      <a href="https://github.com/smallghost42/github-readme-stats">
+          <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=true&text_bold=true" alt="Top Languages">
+        </a>
+   </td>
+   </tr>
+   </table>
 </div>
