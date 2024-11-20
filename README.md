@@ -36,7 +36,7 @@ I’m a computer science student with a passion for low-level languages and cust
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api?username=smallghost42&show_icons=true&count_private=true&hide_title=true&theme=radical" />
+           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&hide_title=true&theme=radical" />
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
@@ -48,7 +48,7 @@ I’m a computer science student with a passion for low-level languages and cust
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=nightowl&count_private=true" alt="Top Languages">
+          <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=nightowl&count_private=true&layout=compact" alt="Top Languages">
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
