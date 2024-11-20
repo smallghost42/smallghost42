@@ -5,9 +5,6 @@
 I’m a computer science student with a passion for low-level languages and customizing interfaces like the CLI. I’m also deeply interested in cybersecurity, always exploring new ways to secure digital systems.
 
    <p align="left">
-      <a href="https://www.youtube.com/c/fknight">
-         <img alt="youtube views" title="YouTube views" src="https://custom-icon-badges.demolab.com/youtube/channel/views/UC2WHjPDvbE6O328n17ZGcfg?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"/></a> 
-      <a href="https://github.com/smallghost42?tab=followers">
          <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/smallghost42?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
       <a href="https://github.com/smallghost42?tab=repositories&sort=stargazers">
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/smallghost42?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
@@ -36,7 +33,7 @@ I’m a computer science student with a passion for low-level languages and cust
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&hide_title=true&theme=radical" />
+           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&theme=nightowl" />
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
