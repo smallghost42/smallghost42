@@ -19,19 +19,7 @@
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
-        <!-- Nested table inside second td -->
-        <table style="width: 100%; height: 100%; border: 1px solid #ccc; border-collapse: collapse;">
-          <tr>
-            <td style="border: 1px solid #ccc; text-align: center; width: 33%; height: 50%;">C</td>
-            <td style="border: 1px solid #ccc; text-align: center; width: 33%; height: 50%;">C++</td>
-            <td style="border: 1px solid #ccc; text-align: center; width: 33%; height: 50%;">Lua</td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid #ccc; text-align: center; width: 33%; height: 50%;">Python</td>
-            <td style="border: 1px solid #ccc; text-align: center; width: 33%; height: 50%;">Rust</td>
-            <td style="border: 1px solid #ccc; text-align: center; width: 33%; height: 50%;">...</td>
-          </tr>
-        </table>
+        <iframe src="https://smallghost42.github.io/myrepo/table.html" width="100%" height="400" style="border:none;"></iframe>
       </td>
     </tr>
   </table>
