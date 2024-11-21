@@ -34,7 +34,7 @@ I’m a computer science student with a passion for low-level languages and cust
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&theme=outrun&bg_color=0D1117&border_color=0D1117" />
+           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-seven-chi-88.vercel.app/api?username=smallghost42&show_icons=true&count_private=true&theme=outrun&bg_color=0D1117&border_color=0D1117" />
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
@@ -48,12 +48,12 @@ I’m a computer science student with a passion for low-level languages and cust
       <tr>
          <td>
          <a href="https://github.com/jamesgeorge007/github-activity-readme">
-  <img src="https://github-readme-activity-graph-lake-nine.vercel.app//graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph-lake-nine.vercel.app/graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
 </a>
          </td>
          <td>
       <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-git-master-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=true&text_bold=true" alt="Top Languages">
+          <img src="https://github-readme-stats-seven-chi-88.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=true&text_bold=true" alt="Top Languages">
         </a>
    </td>
    </tr>
