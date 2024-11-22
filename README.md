@@ -1,4 +1,4 @@
-# 👻 Smallghost
+<img align="center" alt="C" width="30px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=gPvM8wM3hUhC&format=png&color=000000" /> Smallghost
 
 **`Tech Artisan (Computer Science/Cybersecurity/linux custom)`**
 
@@ -45,7 +45,7 @@ I’m a computer science student with a passion for low-level languages and cust
       </td>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-          <img src="https://streak-stats.demolab.com/?user=smallghost42&theme=outrun&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
+          <img src="https://streak-stats.demolab.com?user=smallghost42&theme=outrun&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
         </a>
       </td>
     </tr>
