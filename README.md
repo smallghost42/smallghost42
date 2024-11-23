@@ -1,8 +1,8 @@
 <img align="center" alt="C" width="30px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=gPvM8wM3hUhC&format=png&color=000000" /> Smallghost
 
-**`Tech Artisan (Computer Science/Cybersecurity/linux custom)`**
+**`Tech (Computer Science/Cybersecurity/linux custom)`**
 
-I’m a computer science student with a passion for low-level languages and customizing interfaces like the CLI. I’m also deeply interested in cybersecurity, always exploring new ways to secure digital systems.
+I’m a computer science student with a passion for low-level languages and customizing interfaces like the CLI. I’m also deeply interested in cybersecurity.
 
    <p align="left">
        <a href="https://github.com/smallghost42">
