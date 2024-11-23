@@ -1,6 +1,3 @@
-<table>
-   <tr>
-      <td>
 <img align="center" alt="C" width="30px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=gPvM8wM3hUhC&format=png&color=000000" /> Smallghost
 
 **`Tech (Computer Science/Cybersecurity/linux custom)`**
@@ -18,11 +15,6 @@ I’m a computer science student with a passion for low-level languages and cust
    <img alt="total visitor" title="gihtub visitor" src="https://api.visitorbadge.io/api/VisitorHit?user=smallghost42&repo=github-visitors-badge&labelColor=%23f47373&countColor=%23f47373&style=default&labelStyle=upper">
       </a>
    </p>
-   </td>
-   <td>
-      <img src="https://raw.githubusercontent.com/smallghost42/utilsgif/main/miku.gif" alt="Miku GIF" width="200px">   </td>
-   </tr>
-   </table>
 
 ---
 ### 🛠️ Languages and Tools
