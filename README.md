@@ -20,7 +20,7 @@ I’m a computer science student with a passion for low-level languages and cust
    </p>
    </td>
    <td>
-      <img src="https://raw.githubusercontent.com/smallghost42/utilgif/miku.gif" alt="Miku GIF" width="200px">   </td>
+      <img src="https://raw.githubusercontent.com/smallghost42/utilsgif/main/miku.gif" alt="Miku GIF" width="200px">   </td>
    </tr>
    </table>
 
