@@ -1,6 +1,6 @@
 <img align="center" alt="C" width="30px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=gPvM8wM3hUhC&format=png&color=000000" /> Smallghost
 
-**`Tech (Computer Science/Cybersecurity/linux custom)`**
+**`Computer Science/Cybersecurity/linux custom`**
 
 I’m a computer science student with a passion for low-level languages and customizing interfaces like the CLI. I’m also deeply interested in cybersecurity.
 
