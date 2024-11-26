@@ -45,7 +45,7 @@ I’m a computer science student with a passion for low-level languages and cust
       </td>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-          <img src="https://streak-stats.demolab.com/?user=smallghost42&theme=outrun&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
+          <img src="https://streak-stats.demolab.com//?user=smallghost42&theme=outrun&background=0D1117&border=0D1117&count_private=true&hide_title=true" alt="GitHub Streak">
         </a>
       </td>
     </tr>
