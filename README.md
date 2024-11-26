@@ -54,12 +54,12 @@ I’m a computer science student with a passion for low-level languages and cust
       <tr>
          <td>
          <a href="https://github.com/jamesgeorge007/github-activity-readme">
-  <img src="https://github-readme-activity-graph-lake-nine.vercel.app//graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph-lake-nine.vercel.app/graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
 </a>
          </td>
          <td>
       <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-seven-chi-88.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=false&text_bold=true&langs_count=12&&hide=php,Procfile,javascript" alt="Top Languages">
+          <img src="https://github-readme-stats-seven-chi-88.vercel.app//api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=false&text_bold=true&langs_count=12&&hide=php,Procfile,javascript" alt="Top Languages">
         </a>
    </td>
    </tr>
