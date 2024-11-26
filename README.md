@@ -1,18 +1,16 @@
-<img align="center" alt="C" width="30px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=gPvM8wM3hUhC&format=png&color=000000" /> Smallghost
-
-**`Computer Science/Cybersecurity/linux custom`**
-
-I’m a computer science student with a passion for low-level languages and customizing interfaces like the CLI. I’m also deeply interested in cybersecurity.
+<div align="center">
+<img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=kMxINvMmEzw0&format=png&color=000000" />
+</div>
 
    <p align="left">
        <a href="https://github.com/smallghost42">
-    <img alt="Followers" title="Follow me on GitHub" src="https://img.shields.io/github/followers/smallghost42?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github" />
-</a>
-     <a href="https://github.com/smallghost42?tab=repositories&sort=stargazers">
-    <img alt="Total Stars" title="Total stars on GitHub" src="https://img.shields.io/github/stars/smallghost42?color=55960c&style=for-the-badge&labelColor=488207&logo=github" />
-</a>
+          <img alt="Followers" title="Follow me on GitHub" src="https://img.shields.io/github/followers/smallghost42?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github" />
+      </a>
+      <a href="https://github.com/smallghost42?tab=repositories&sort=stargazers">
+          <img alt="Total Stars" title="Total stars on GitHub" src="https://img.shields.io/github/stars/smallghost42?color=55960c&style=for-the-badge&labelColor=488207&logo=github" />
+      </a>
       <a>
-   <img alt="total visitor" title="gihtub visitor" src="https://api.visitorbadge.io/api/VisitorHit?user=smallghost42&repo=github-visitors-badge&labelColor=%23f47373&countColor=%23f47373&style=default&labelStyle=upper">
+         <img alt="total visitor" title="gihtub visitor" src="https://api.visitorbadge.io/api/VisitorHit?user=smallghost42&repo=github-visitors-badge&labelColor=%23f47373&countColor=%23f47373&style=default&labelStyle=upper">
       </a>
    </p>
 
