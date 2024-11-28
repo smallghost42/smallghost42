@@ -38,7 +38,7 @@
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-smallghost01s-projects.vercel.app/api?username=smallghost42&show_icons=true&count_private=true&theme=outrun&bg_color=0D1117&border_color=0D1117" />
+           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&theme=outrun&bg_color=0D1117&border_color=0D1117" />
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
