@@ -4,20 +4,10 @@
 
 ---
 ### 🛠️ Languages and Tools
-<p align="center">   
-<img align="left" alt="C" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
-<img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-<img align="left" alt="Lua" width="30px" style="padding-right:10px;" src="https://img.icons8.com/?size=100&id=hUJLMnqf5Rhd&format=png&color=000000" />
-<img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://img.icons8.com/?size=100&id=50ZQHdJTmPqw&format=png&color=000000" />
-<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-<img align="left" alt="Docker" width="30px" style="padding-right:10px;" src="https://img.icons8.com/?size=100&id=zFAYIdFZlGxP&format=png&color=000000" />
-<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://img.icons8.com/?size=100&id=vchDgNW6VKq0&format=png&color=000000" />
-<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://img.icons8.com/?size=100&id=uIXgLv5iSlLJ&format=png&color=000000" />
-<img align="left" alt="Neovim" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg" />
-<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-</p>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git,r" />
+    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" /><br>
+</div>
 </br>
 
 #
