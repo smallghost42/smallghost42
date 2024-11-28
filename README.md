@@ -2,18 +2,6 @@
 <img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=kMxINvMmEzw0&format=png&color=000000" />
 </div>
 
-   <p align="left">
-       <a href="https://github.com/smallghost42">
-          <img alt="Followers" title="Follow me on GitHub" src="https://img.shields.io/github/followers/smallghost42?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github" />
-      </a>
-      <a href="https://github.com/smallghost42?tab=repositories&sort=stargazers">
-          <img alt="Total Stars" title="Total stars on GitHub" src="https://img.shields.io/github/stars/smallghost42?color=55960c&style=for-the-badge&labelColor=488207&logo=github" />
-      </a>
-      <a>
-         <img alt="total visitor" title="gihtub visitor" src="https://api.visitorbadge.io/api/VisitorHit?user=smallghost42&repo=github-visitors-badge&labelColor=%23f47373&countColor=%23f47373&style=default&labelStyle=upper">
-      </a>
-   </p>
-
 ---
 ### 🛠️ Languages and Tools
 <p align="center">   
