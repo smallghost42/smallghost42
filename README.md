@@ -3,9 +3,9 @@
 </div>
 
 ---
-### 🛠️ Languages and Tools
+ <h3 align="center">Languages and Tools</h3>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=c,cpp,bash,lua,python,javascript,html,css,tailwind" /><br>
+    <img src="https://skillicons.dev/icons?i=c,cpp,bash,lua,html,css,tailwind" /><br>
     <img src="https://skillicons.dev/icons?i=unity,godot,vercel,heroku,docker,neovim,clion,vscode,github,git,arch" /><br>
 </div>
 </br>
