@@ -1,12 +1,14 @@
 <div align="center">
 <img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=lkh3AbJLmFpp&format=png&color=000000" />
+ <img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=5XIBqw0iztS2&format=png&color=000000" />
+ <img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" />
 </div>
 
 ---
  <h3 align="center">Languages and Tools</h3>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=c,cpp,bash,lua,html,css,tailwind" /><br>
-    <img src="https://skillicons.dev/icons?i=unity,godot,vercel,heroku,docker,neovim,clion,vscode,github,git,arch" /><br>
+    <img src="https://skillicons.dev/icons?i=unity,godot,vercel,heroku,docker,neovim,clion,vscode,arch" /><br>
 </div>
 </br>
 
