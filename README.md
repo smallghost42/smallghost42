@@ -10,7 +10,6 @@
     <img src="https://skillicons.dev/icons?i=c,cpp,bash,lua,html,css,tailwind" /><br>
     <img src="https://skillicons.dev/icons?i=unity,godot,vercel,heroku,docker,neovim,clion,vscode,arch" /><br>
 </div>
-</br>
 
 #
 <div align="center">
