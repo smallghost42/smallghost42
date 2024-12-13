@@ -36,7 +36,7 @@
          </td>
          <td>
       <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-seven-chi-88.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=false&text_bold=true&langs_count=12&&hide=php,Procfile,javascript,dockerfile" alt="Top Languages">
+          <img src="https://github-readme-stats-seven-chi-88.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=false&text_bold=true&langs_count=12&&hide=php,Procfile,javascript,dockerfile,html,css,glsl" alt="Top Languages">
         </a>
    </td>
    </tr>
