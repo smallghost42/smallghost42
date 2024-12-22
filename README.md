@@ -7,7 +7,7 @@
 ---
 <div align="center">
     <img src="https://skillicons.dev/icons?i=c,cpp,rust,bash,lua,postgresql,css" /><br>
-    <img src="https://skillicons.dev/icons?i=unity,git,github,vercel,docker,kubernetes,neovim,clion,vscode,arch,nixos" />
+    <img src="https://skillicons.dev/icons?i=unity,git,github,vercel,docker,kubernetes,neovim,clion,vscode,arch,nix" />
    <p></p>
  
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/your-username)
