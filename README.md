@@ -5,10 +5,16 @@
 </div>
 
 ---
- <h3 align="center">Languages and Tools</h3>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=c,cpp,bash,lua,html,css,tailwind" /><br>
-    <img src="https://skillicons.dev/icons?i=unity,godot,vercel,heroku,docker,neovim,clion,vscode,arch" /><br>
+    <img src="https://skillicons.dev/icons?i=c,cpp,rust,bash,lua,postgresql,css" /><br>
+    <img src="https://skillicons.dev/icons?i=unity,git,github,vercel,docker,kubernetes,neovim,clion,vscode,arch,nixos" />
+   <p></p>
+ 
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/your-username)
+[![Hack The Box](https://img.shields.io/badge/Hack%20The%20Box-111927?style=for-the-badge&logo=hackthebox&logoColor=white)](https://app.hackthebox.com/users/your-username)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/your-username)
+[![Codingame](https://img.shields.io/badge/Codingame-F2BB13?style=for-the-badge&logo=codingame&logoColor=white)](https://www.codingame.com/profile/your-profile-id)
+
 </div>
 
 #
