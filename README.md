@@ -37,7 +37,7 @@
       <tr>
          <td>
          <a href="https://github.com/jamesgeorge007/github-activity-readme">
-  <img src="https://github-readme-activity-graph-lake-nine.vercel.app/graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph-lake-nine.vercel.app//graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
 </a>
          </td>
          <td>
