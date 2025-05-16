@@ -1,10 +1,13 @@
-<div align="center">
-<img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=lkh3AbJLmFpp&format=png&color=000000" />
- <img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=5XIBqw0iztS2&format=png&color=000000" />
- <img align="center" alt="C" width="80px" style="padding-right:5px;" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" />
-</div>
+#
 
----
+```cpp
+#include <iostream> using namespace std; int main(void)
+ {
+   cout <<" << [[]] ][\/][ ]]P ][_][ `][` ]E ][2   ((5 << ]][ ]E ][\][ << ]E  "<< endl;
+   return (0);
+ }
+```
+#
 <div align="center">
  <table style="width: 100%; height: 100%;">
     <tr>
