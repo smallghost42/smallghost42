@@ -6,8 +6,21 @@
 
 ---
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=c,cpp,bash,lua,postgresql,react" /><br>
-    <img src="https://skillicons.dev/icons?i=unity,git,github,vercel,docker,neovim,clion,vscode,arch,nix,idea" />
+ <table style="width: 100%; height: 100%;">
+    <tr>
+     <td align="center">
+      <a>
+      <img src="https://skillicons.dev/icons?i=c,cpp,bash,lua,postgresql,react" /><br>
+      <img src="https://skillicons.dev/icons?i=unity,git,github,vercel,docker,neovim,clion,vscode,arch,nix,idea" />
+      </a>
+      </td>
+           <td>
+      <a href="https://github.com/smallghost42/github-readme-stats">
+          <img src="https://github-readme-stats-seven-chi-88.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117&hide_title=false&text_bold=true&langs_count=12&&hide=php,Procfile,html,css,glsl,perl,gdscript" alt="Top Languages">
+        </a>
+   </td>
+    </tr>
+ </table>
    <p></p>
 
 </div>
@@ -35,11 +48,6 @@
   <img src="https://github-readme-activity-graph-lake-nine.vercel.app//graph?username=smallghost42&theme=react-dark&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
 </a>
          </td>
-         <td>
-      <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-seven-chi-88.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=pie&bg_color=0D1117&border_color=0D1117&hide_title=false&text_bold=true&langs_count=12&&hide=php,Procfile,javascript,dockerfile,html,css,glsl" alt="Top Languages">
-        </a>
-   </td>
    </tr>
    </table>
 </div>
