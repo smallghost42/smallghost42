@@ -1,6 +1,6 @@
 #
 ```cpp
-   cout <<" << [[]] ][\/][ ]]P ][_][ `][` ]E ][2   ((5 << ]][ ]E ][\][ << ]E  "<< endl;
+   cout <<" LIGHT atract BUG use DARK mode"<< endl;
 ```
 #
 <div align="center">
