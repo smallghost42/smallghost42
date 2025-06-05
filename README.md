@@ -11,13 +11,13 @@
  <table style="width: 100%; height: 100%;">
     <tr>
      <td align="center" width="70%">
-        <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+        <a href="https://github.com/smallghost42">
 		<img src="https://github-readme-activity-graph-smallghost01s-projects.vercel.app/graph?username=smallghost42&theme=github-compact&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
 	</a>
      </td>
      <td>
-        <a href="https://github.com/smallghost42/github-readme-stats">
-          <img src="https://github-readme-stats-seven-chi-88.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117&hide_title=true&text_bold=true&langs_count=12&&hide=php,Procfile,html,css,glsl,perl,gdscript" alt="Top Languages">
+        <a href="https://github.com/smallghost42">
+          <img src="https://github-readme-stats-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117&hide_title=true&text_bold=true&langs_count=12&&hide=php,Procfile,html,css,glsl,perl,gdscript" alt="Top Languages">
       </a>
      </td>
     </tr>
