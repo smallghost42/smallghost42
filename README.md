@@ -12,7 +12,7 @@
     <tr>
      <td align="center" width="70%">
         <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-		<img src="https://github-readme-activity-graph-sage-two.vercel.app/graph?username=smallghost42&theme=github-compact&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
+		<img src="https://github-readme-activity-graph-smallghost01s-projects.vercel.app/graph?username=smallghost42&theme=github-compact&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
 	</a>
      </td>
      <td>
