@@ -11,9 +11,9 @@
  <table style="width: 100%; height: 100%;">
     <tr>
      <td align="center" width="70%">
-        <a href="https://github.com/jamesgeorge007/github-activity-readme">
-			<img src="https://github-readme-activity-graph-lake-nine.vercel.app//graph?username=smallghost42&theme=github-compact&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
-		</a>
+        <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+		<img src="https://github-readme-activity-graph-alpha-three.vercel.app/graph?username=smallghost42&theme=github-compact&area=true&hide_title=true&hide_border=true" alt="Activity Graph">
+	</a>
      </td>
      <td>
         <a href="https://github.com/smallghost42/github-readme-stats">
