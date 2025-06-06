@@ -17,7 +17,7 @@
      </td>
      <td>
         <a href="https://github.com/smallghost42">
-          <img src="https://github-readme-stats-smallghost01s-projects.vercel.app/api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117&hide_title=true&text_bold=true&langs_count=12&&hide=php,Procfile,html,css,glsl,perl,gdscript" alt="Top Languages">
+          <img src="https://github-readme-stats-smallghost01s-projects.vercel.app//api/top-langs/?username=smallghost42&theme=outrun&count_private=true&layout=compact&bg_color=0D1117&border_color=0D1117&hide_title=true&text_bold=true&langs_count=12&&hide=php,Procfile,html,css,glsl,perl,gdscript" alt="Top Languages">
       </a>
      </td>
     </tr>
@@ -30,7 +30,7 @@
     <tr>
       <td style="width: 50%; height: 200px;">
         <a href="https://github.com/smallghost42">
-           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-smallghost01s-projects.vercel.app/api?username=smallghost42&show_icons=true&count_private=true&theme=outrun&bg_color=0D1117&border_color=0D1117&show=prs_merged,prs_merged_percentage&rank_icon=github&hide_title=true" />
+           <img alt="Total contributions" title="My total GitHub contributions" src="https://github-readme-stats-smallghost01s-projects.vercel.app//api?username=smallghost42&show_icons=true&count_private=true&theme=outrun&bg_color=0D1117&border_color=0D1117&show=prs_merged,prs_merged_percentage&rank_icon=github&hide_title=true" />
         </a>
       </td>
       <td style="width: 50%; height: 200px;">
