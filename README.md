@@ -1,7 +1,3 @@
-#
-```cpp
-   cout <<" LIGHT atract BUG use DARK mode"<< endl;
-```
 <a href="https://github.com/smallghost42">
   <img alt="Animated GitHub Logo" src="https://your-image-host/animated-github-logo.gif" width="40" />
 </a>
