@@ -1,6 +1,4 @@
-<a href="https://github.com/smallghost42">
-  <img alt="Animated GitHub Logo" src="https://your-image-host/animated-github-logo.gif" width="40" />
-</a>
+![](https://komarev.com/ghpvc/?username=smallghost42)
 
 #
 <div align="center">
