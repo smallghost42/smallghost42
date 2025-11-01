@@ -1,11 +1,9 @@
 
 #
-<picture decoding="async" loading="lazy">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/smallghost42/smallghost42/output/github-stats.png">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/smallghost42/smallghost42/output/github-stats-dark.png">
-  <img alt="github stats" src="https://pixel-profile.vercel.app/api/github-stats?username=smallghost42&screen_effect=true&theme=fuji&hide=avatar&dithering=true">
-</picture>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+</p>
 <div align="center">
  <table style="width: 100%; height: 100%;">
     <tr>
