@@ -1,11 +1,11 @@
 
 #
 <p align="center">
-  <a href="#"><img width="650px" src="https://readme-typing-svg.herokuapp.com?font=Ubuntu&color=58a6ff&size=22&center=true&lines=Hello,+World;Welcome+to+my+GitHub+profile;Happy+to+see+you;Reach+me+out+if+you+need+me;Have+a+great+day+😊"></a>
+  <a href="#"><img width="650px" src="https://readme-typing-svg.herokuapp.com?font=Ubuntu&color=58a6ff&size=22&center=true&lines=Hello,+World;Welcome+to+my+GitHub+profile"></a>
 </p>
 <p align="center">
  
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Welcome!&fontAlign=80&fontAlignY=40&color=gradient)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=100&fontAlign=80&fontAlignY=40&color=gradient)
 </p>
 <div align="center">
  <table style="width: 100%; height: 100%;">
