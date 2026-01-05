@@ -1,0 +1,60 @@
+<svg width="800" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <style>
+        .bg { fill: #0d1117; }
+        .bg-secondary { fill: #161b22; }
+        .border { stroke: #30363d; stroke-width: 1; fill: none; }
+        .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #c9d1d9; }
+        .repo-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #58a6ff; }
+        .stat-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }
+        .lang-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #3fb950; }
+        .divider { stroke: #30363d; stroke-width: 1; }
+      </style>
+    </defs>
+    
+    <!-- Background -->
+    <rect class="bg" width="800" height="280" rx="6"/>
+    <rect class="border" x="0.5" y="0.5" width="799" height="279" rx="6"/>
+    
+    <!-- Title -->
+    <text x="30" y="35" class="title">🏆 Top Repositories</text>
+    <line class="divider" x1="30" y1="45" x2="770" y2="45"/>
+    
+    
+    <rect x="30" y="70" width="740" height="30" rx="4" class="bg-secondary"/>
+    <text x="40" y="90" class="repo-name">smallghost42</text>
+    <text x="400" y="90" class="stat-text">⭐ 6</text>
+    <text x="480" y="90" class="stat-text">🔱 0</text>
+    <text x="560" y="90" class="lang-text">JavaScript</text>
+    
+    <rect x="30" y="105" width="740" height="30" rx="4" class="bg-secondary"/>
+    <text x="40" y="125" class="repo-name">utilsgif</text>
+    <text x="400" y="125" class="stat-text">⭐ 5</text>
+    <text x="480" y="125" class="stat-text">🔱 0</text>
+    <text x="560" y="125" class="lang-text">Unknown</text>
+    
+    <rect x="30" y="140" width="740" height="30" rx="4" class="bg-secondary"/>
+    <text x="40" y="160" class="repo-name">smallghost01</text>
+    <text x="400" y="160" class="stat-text">⭐ 5</text>
+    <text x="480" y="160" class="stat-text">🔱 0</text>
+    <text x="560" y="160" class="lang-text">Unknown</text>
+    
+    <rect x="30" y="175" width="740" height="30" rx="4" class="bg-secondary"/>
+    <text x="40" y="195" class="repo-name">plane-game</text>
+    <text x="400" y="195" class="stat-text">⭐ 5</text>
+    <text x="480" y="195" class="stat-text">🔱 0</text>
+    <text x="560" y="195" class="lang-text">GDScript</text>
+    
+    <rect x="30" y="210" width="740" height="30" rx="4" class="bg-secondary"/>
+    <text x="40" y="230" class="repo-name">smallghost42.github.io</text>
+    <text x="400" y="230" class="stat-text">⭐ 5</text>
+    <text x="480" y="230" class="stat-text">🔱 0</text>
+    <text x="560" y="230" class="lang-text">HTML</text>
+    
+    <rect x="30" y="245" width="740" height="30" rx="4" class="bg-secondary"/>
+    <text x="40" y="265" class="repo-name">backups</text>
+    <text x="400" y="265" class="stat-text">⭐ 1</text>
+    <text x="480" y="265" class="stat-text">🔱 0</text>
+    <text x="560" y="265" class="lang-text">Lua</text>
+    
+  </svg>

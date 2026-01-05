@@ -1,32 +1,41 @@
-<svg width="400" height="180" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <style>
         .bg { fill: #0d1117; }
+        .bg-secondary { fill: #161b22; }
         .border { stroke: #30363d; stroke-width: 1; fill: none; }
-        .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600; fill: #c9d1d9; }
+        .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 28px; font-weight: 600; fill: #c9d1d9; }
         .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; fill: #8b949e; }
-        .accent-text { fill: #58a6ff; }
+        .accent-text { fill: #58a6ff; font-weight: 600; }
+        .stat-value { font-size: 20px; font-weight: 600; fill: #c9d1d9; }
       </style>
     </defs>
     
-    <!-- Background -->
-    <rect class="bg" width="400" height="180" rx="6"/>
-    <rect class="border" x="0.5" y="0.5" width="399" height="179" rx="6"/>
+    <!-- Background with gradient effect -->
+    <rect class="bg" width="800" height="200" rx="6"/>
+    <rect class="border" x="0.5" y="0.5" width="799" height="199" rx="6"/>
     
-    <!-- Content -->
-    <circle cx="50" cy="40" r="20" class="border" stroke-width="2"/>
-    <text x="80" y="35" class="title">smallghost42</text>
-    <text x="80" y="55" class="subtitle">Software Developer • Computer Science</text>
+    <!-- Avatar placeholder circle -->
+    <circle cx="60" cy="100" r="40" fill="#58a6ff" opacity="0.2"/>
+    <circle cx="60" cy="100" r="40" class="border" stroke-width="2"/>
     
-    <!-- Stats Row -->
-    <text x="80" y="90" class="subtitle">📊 GitHub Stats</text>
-    <text x="80" y="115" class="subtitle" font-size="12">
-      <tspan class="accent-text">→</tspan> Passionate about clean code & open source
+    <!-- Profile info -->
+    <text x="120" y="75" class="title">smallghost</text>
+    <text x="120" y="100" class="subtitle">Software Developer • Computer Science</text>
+    <text x="120" y="125" class="subtitle">📍 Madagascar</text>
+    
+    <!-- Stats boxes -->
+    <rect x="500" y="40" width="120" height="50" rx="6" class="bg-secondary"/>
+    <text x="560" y="62" class="stat-value" text-anchor="middle">9</text>
+    <text x="560" y="80" class="subtitle" text-anchor="middle">Followers</text>
+    
+    <rect x="640" y="40" width="120" height="50" rx="6" class="bg-secondary"/>
+    <text x="700" y="62" class="stat-value" text-anchor="middle">10</text>
+    <text x="700" y="80" class="subtitle" text-anchor="middle">Following</text>
+    
+    <!-- Bottom info -->
+    <text x="120" y="165" class="subtitle">
+      <tspan class="accent-text">→</tspan> Passionate about clean code &amp; open source
     </text>
-    <text x="80" y="140" class="subtitle" font-size="12">
-      <tspan class="accent-text">→</tspan> Full-stack developer • System design enthusiast
-    </text>
-    
-    <!-- Footer -->
-    <text x="80" y="165" class="subtitle" font-size="11">github.com/smallghost42</text>
+    <text x="120" y="185" class="subtitle" font-size="12">github.com/smallghost42</text>
   </svg>
