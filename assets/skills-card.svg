@@ -1,90 +1,12 @@
-<svg width="800" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <style>
-        .bg { fill: #0d1117; }
-        .bg-secondary { fill: #161b22; }
-        .border { stroke: #30363d; stroke-width: 1; fill: none; }
-        .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #c9d1d9; }
-        .section-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #8b949e; }
-        .skill-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #c9d1d9; }
-        .divider { stroke: #30363d; stroke-width: 1; }
+        .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #1a1a1a; }
       </style>
     </defs>
     
-    <!-- Background -->
-    <rect class="bg" width="800" height="280" rx="6"/>
-    <rect class="border" x="0.5" y="0.5" width="799" height="279" rx="6"/>
+    <text x="30" y="35" class="title">Tech Stack</text>
+    <line x1="30" y1="45" x2="770" y2="45" stroke="#666666" stroke-width="0.5"/>
     
-    <!-- Title -->
-    <text x="30" y="35" class="title">💻 Tech Stack</text>
-    <line class="divider" x1="30" y1="45" x2="770" y2="45"/>
-    
-    <!-- Frontend Section -->
-    <text x="40" y="75" class="section-title">Frontend</text>
-    <rect x="40" y="85" width="100" height="32" rx="6" class="bg-secondary"/>
-    <text x="90" y="107" class="skill-text" text-anchor="middle">React</text>
-    
-    <rect x="150" y="85" width="100" height="32" rx="6" class="bg-secondary"/>
-    <text x="200" y="107" class="skill-text" text-anchor="middle">TypeScript</text>
-    
-    <rect x="260" y="85" width="100" height="32" rx="6" class="bg-secondary"/>
-    <text x="310" y="107" class="skill-text" text-anchor="middle">JavaScript</text>
-    
-    <rect x="370" y="85" width="120" height="32" rx="6" class="bg-secondary"/>
-    <text x="430" y="107" class="skill-text" text-anchor="middle">Tailwind CSS</text>
-    
-    <rect x="500" y="85" width="100" height="32" rx="6" class="bg-secondary"/>
-    <text x="550" y="107" class="skill-text" text-anchor="middle">Next.js</text>
-    
-    <rect x="610" y="85" width="80" height="32" rx="6" class="bg-secondary"/>
-    <text x="650" y="107" class="skill-text" text-anchor="middle">HTML5</text>
-    
-    <rect x="700" y="85" width="70" height="32" rx="6" class="bg-secondary"/>
-    <text x="735" y="107" class="skill-text" text-anchor="middle">CSS3</text>
-    
-    <!-- Backend Section -->
-    <text x="40" y="155" class="section-title">Backend</text>
-    <rect x="40" y="165" width="70" height="32" rx="6" class="bg-secondary"/>
-    <text x="75" y="187" class="skill-text" text-anchor="middle">C</text>
-    
-    <rect x="120" y="165" width="70" height="32" rx="6" class="bg-secondary"/>
-    <text x="155" y="187" class="skill-text" text-anchor="middle">C++</text>
-    
-    <rect x="200" y="165" width="80" height="32" rx="6" class="bg-secondary"/>
-    <text x="240" y="187" class="skill-text" text-anchor="middle">Go</text>
-    
-    <rect x="290" y="165" width="90" height="32" rx="6" class="bg-secondary"/>
-    <text x="335" y="187" class="skill-text" text-anchor="middle">Python</text>
-    
-    <rect x="390" y="165" width="90" height="32" rx="6" class="bg-secondary"/>
-    <text x="435" y="187" class="skill-text" text-anchor="middle">Node.js</text>
-    
-    <rect x="490" y="165" width="110" height="32" rx="6" class="bg-secondary"/>
-    <text x="545" y="187" class="skill-text" text-anchor="middle">PostgreSQL</text>
-    
-    <rect x="610" y="165" width="100" height="32" rx="6" class="bg-secondary"/>
-    <text x="660" y="187" class="skill-text" text-anchor="middle">MongoDB</text>
-    
-    <!-- DevOps Section -->
-    <text x="40" y="235" class="section-title">DevOps &amp; Cloud</text>
-    <rect x="40" y="245" width="70" height="32" rx="6" class="bg-secondary"/>
-    <text x="75" y="267" class="skill-text" text-anchor="middle">Git</text>
-    
-    <rect x="120" y="245" width="80" height="32" rx="6" class="bg-secondary"/>
-    <text x="160" y="267" class="skill-text" text-anchor="middle">GitHub</text>
-    
-    <rect x="210" y="245" width="80" height="32" rx="6" class="bg-secondary"/>
-    <text x="250" y="267" class="skill-text" text-anchor="middle">Docker</text>
-    
-    <rect x="300" y="245" width="80" height="32" rx="6" class="bg-secondary"/>
-    <text x="340" y="267" class="skill-text" text-anchor="middle">Nginx</text>
-    
-    <rect x="390" y="245" width="110" height="32" rx="6" class="bg-secondary"/>
-    <text x="445" y="267" class="skill-text" text-anchor="middle">Kubernetes</text>
-    
-    <rect x="510" y="245" width="70" height="32" rx="6" class="bg-secondary"/>
-    <text x="545" y="267" class="skill-text" text-anchor="middle">AWS</text>
-    
-    <rect x="590" y="245" width="80" height="32" rx="6" class="bg-secondary"/>
-    <text x="630" y="267" class="skill-text" text-anchor="middle">Linux</text>
+    <text x="30" y="80" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">React</text><text x="220" y="80" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">TypeScript</text><text x="410" y="80" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">JavaScript</text><text x="600" y="80" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Python</text><text x="30" y="130" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Go</text><text x="220" y="130" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Node.js</text><text x="410" y="130" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">PostgreSQL</text><text x="600" y="130" style="font-size: 14px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Docker</text>
   </svg>
