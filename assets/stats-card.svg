@@ -7,10 +7,10 @@
     </defs>
     
     <text x="30" y="30" class="title">Public Repos</text>
-    <text x="30" y="70" class="stat-value">10</text>
+    <text x="30" y="70" class="stat-value">7</text>
     
     <text x="280" y="30" class="title">Total Stars</text>
-    <text x="280" y="70" class="stat-value">37</text>
+    <text x="280" y="70" class="stat-value">31</text>
     
     <text x="530" y="30" class="title">Followers</text>
     <text x="530" y="70" class="stat-value">9</text>
