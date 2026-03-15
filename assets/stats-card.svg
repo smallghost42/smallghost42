@@ -7,7 +7,7 @@
     </defs>
     
     <text x="30" y="30" class="title">Public Repos</text>
-    <text x="30" y="70" class="stat-value">7</text>
+    <text x="30" y="70" class="stat-value">8</text>
     
     <text x="280" y="30" class="title">Total Stars</text>
     <text x="280" y="70" class="stat-value">31</text>
