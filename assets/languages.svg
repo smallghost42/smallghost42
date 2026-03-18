@@ -14,7 +14,7 @@
     <rect x="150" y="60" width="200" height="8" rx="4" fill="#0066cc"/>
     <text x="660" y="70" style="font-size: 12px; fill: #666666; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">40.0%</text>
     
-    <text x="30" y="105" style="font-size: 13px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Java</text>
+    <text x="30" y="105" style="font-size: 13px; fill: #1a1a1a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">C++</text>
     <rect x="150" y="95" width="500" height="8" rx="4" fill="#666666" opacity="0.2"/>
     <rect x="150" y="95" width="100" height="8" rx="4" fill="#0066cc"/>
     <text x="660" y="105" style="font-size: 12px; fill: #666666; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">20.0%</text>
