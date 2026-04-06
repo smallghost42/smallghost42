@@ -15,7 +15,7 @@ CS student
   </tr>
   <tr>
     <td><b>Frontend</b></td>
-    <td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" /></a></td>
+    <td><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,tailwind" /></a></td>
   </tr>
   <tr>
     <td><b>Backend & DB</b></td>
