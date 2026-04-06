@@ -7,7 +7,6 @@ CS student
 
 
 ### 🛠 Tech Stack
-### 🛠 Tech Stack
 
 <table>
   <tr>
