@@ -1,6 +1,6 @@
 <div align="center">
 
-### `automate everything. trust nothing`
+### `"Mastery is just consistency compiled over time"`
 
 <br />
 
