@@ -1,0 +1,51 @@
+name: Generate Stats Images
+
+on:
+  schedule:
+    - cron: '5 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -euxo pipefail {0}
+    steps:
+    - uses: actions/checkout@v6
+
+    - uses: mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29
+      with:
+        version: 0.16.0
+
+    - name: Build
+      run: |
+        zig build
+
+    - name: Checkout generated branch
+      run: |
+        git config --global user.name "smallghost42/github-stats"
+        git config --global user.email "github-stats[bot]@smallghost42.github.io"
+        git pull
+        git checkout generated || git checkout -b generated
+
+    - name: Generate images
+      run: |
+        ./zig-out/bin/github-stats
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
+        EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
+        EXCLUDE_PRIVATE: "false"
+        SILENT: "true"
+        MAX_RETRIES: 5
+
+    - name: Commit to the repo
+      run: |
+        git add .
+        # Force the build to succeed, even if no files were changed
+        git commit -m 'Update generated files' || true
+        git push --set-upstream origin generated
