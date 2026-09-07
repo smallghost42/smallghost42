@@ -1,0 +1,45 @@
+name: Generate Stats Images
+
+on:
+  schedule:
+    - cron: '5 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Download github-stats binary
+      run: |
+        curl -L -o github-stats 'https://github.com/jstrieb/github-stats/releases/latest/download/github-stats_x86_64-linux'
+        chmod +x github-stats
+
+    - name: Checkout generated branch
+      run: |
+        git config --global user.name "smallghost42/github-stats"
+        git config --global user.email "github-stats[bot]@smallghost42.github.io"
+        git pull
+        git checkout generated || git checkout -b generated
+
+    - name: Generate images
+      run: |
+        ./github-stats
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
+        EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
+        EXCLUDE_PRIVATE: "false"
+        SILENT: "true"
+        MAX_RETRIES: 5
+
+    - name: Commit to the repo
+      run: |
+        git add .
+        # Force the build to succeed, even if no files were changed
+        git commit -m 'Update generated files' || true
+        git push --set-upstream origin generated
