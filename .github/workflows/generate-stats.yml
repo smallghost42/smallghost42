@@ -2,29 +2,47 @@ name: Update README Stats
 
 on:
   schedule:
-    - cron: '5 0 * * *'
+    - cron: "5 0 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  sync-images:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -euxo pipefail {0}
+
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
 
-      - name: Download generated stats images
-        run: |
-          curl -L \
-            -o overview.svg \
-            https://raw.githubusercontent.com/smallghost42/github-stats/generated/overview.svg
-          curl -L \
-            -o languages.svg \
-            https://raw.githubusercontent.com/smallghost42/github-stats/generated/languages.svg
+      - name: Checkout stats source repo
+        uses: actions/checkout@v4
+        with:
+          repository: smallghost42/github-stats
+          path: github-stats-src
+          # If private, use ACCESS_TOKEN with repo read perms:
+          # token: ${{ secrets.ACCESS_TOKEN }}
 
-      - name: Update README
+      # Adjust patterns/paths to match your actual files in smallghost42/github-stats
+      - name: Copy generated images
         run: |
-          git add overview.svg languages.svg README.md
-          git commit -m "Update generated stats images" || true
+          mkdir -p assets
+          # Example: copy common image types from repo root or subdirs
+          find github-stats-src -type f \( -name "*.svg" -o -name "*.png" -o -name "*.jpg" \) -print
+          cp -f github-stats-src/*.svg assets/ 2>/dev/null || true
+          cp -f github-stats-src/*.png assets/ 2>/dev/null || true
+          cp -f github-stats-src/output/*.svg assets/ 2>/dev/null || true
+          cp -f github-stats-src/output/*.png assets/ 2>/dev/null || true
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Update stats images from smallghost42/github-stats"
           git push
