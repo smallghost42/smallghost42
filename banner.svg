@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    
+    <!-- Neon Glow Filters -->
+    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#58a6ff" flood-opacity="0.8"/>
+    </filter>
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#3fb950" flood-opacity="0.8"/>
+    </filter>
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#bc8cff" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="800" height="200" fill="url(#bg)" rx="10"/>
+
+  <!-- Cyberpunk Grid Background -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="1"/>
+  </pattern>
+  <rect width="800" height="200" fill="url(#grid)" rx="10"/>
+
+  <!-- Terminal Header -->
+  <text x="40" y="55" font-family="'Courier New', monospace" font-size="16" fill="#7ee787">
+    smallghost@42<tspan fill="#c9d1d9">:</tspan><tspan fill="#79c0ff">~/infrastructure</tspan><tspan fill="#c9d1d9">$</tspan> <tspan fill="#c9d1d9">./deploy.sh</tspan>
+    <animate attributeName="opacity" values="1;1;0;1" dur="1s" repeatCount="indefinite" begin="0.5s"/>
+  </text>
+  
+  <text x="40" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" fill="url(#text-grad)">Fenohery</text>
+  <text x="42" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#8b949e">Computer Science | DevOps | MLOps | Cloud</text>
+
+  <!-- Horizontal Pipeline Track -->
+  <line x1="120" y1="165" x2="680" y2="165" stroke="#30363d" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Animated Data Packets Flowing -->
+  <!-- Code -> Build -->
+  <circle r="4" fill="#58a6ff" filter="url(#glow-blue)">
+    <animateMotion dur="2s" repeatCount="indefinite" path="M 120 165 L 300 165"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Build -> Deploy -->
+  <circle r="4" fill="#3fb950" filter="url(#glow-green)">
+    <animateMotion dur="2s" begin="0.7s" repeatCount="indefinite" path="M 300 165 L 490 165"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Deploy -> Cloud -->
+  <circle r="4" fill="#bc8cff" filter="url(#glow-purple)">
+    <animateMotion dur="2s" begin="1.4s" repeatCount="indefinite" path="M 490 165 L 680 165"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Pipeline Nodes -->
+  <!-- Node 1: Source (Git) -->
+  <circle cx="120" cy="165" r="10" fill="#0d1117" stroke="#58a6ff" stroke-width="3" filter="url(#glow-blue)"/>
+  <circle cx="120" cy="165" r="3" fill="#58a6ff"/>
+  <text x="120" y="190" font-family="monospace" font-size="11" fill="#c9d1d9" text-anchor="middle">Source</text>
+
+  <!-- Node 2: Build (Docker Container) -->
+  <rect x="290" y="155" width="20" height="20" rx="4" fill="#0d1117" stroke="#3fb950" stroke-width="3" filter="url(#glow-green)"/>
+  <text x="300" y="190" font-family="monospace" font-size="11" fill="#c9d1d9" text-anchor="middle">Build</text>
+
+  <!-- Node 3: Deploy (Kubernetes Hexagon) -->
+  <polygon points="490,152 502,159 502,171 490,178 478,171 478,159" fill="#0d1117" stroke="#bc8cff" stroke-width="3" filter="url(#glow-purple)"/>
+  <text x="490" y="190" font-family="monospace" font-size="11" fill="#c9d1d9" text-anchor="middle">Deploy</text>
+
+  <!-- Node 4: Cloud Infrastructure -->
+  <path d="M 665 168 C 665 160 672 155 678 158 C 680 152 690 152 692 158 C 698 155 705 160 705 168 Z" fill="#0d1117" stroke="#58a6ff" stroke-width="3" filter="url(#glow-blue)"/>
+  <text x="685" y="190" font-family="monospace" font-size="11" fill="#c9d1d9" text-anchor="middle">Cloud</text>
+</svg>
