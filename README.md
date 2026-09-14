@@ -1,40 +1,39 @@
 <div align="center">
-
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0E1017&height=150&section=header&text=Fenohery&fontSize=42&fontColor=ABB2BF&fontAlignY=38&desc=Computer%20Science%20%7C%20DevOps%20%7C%20Linux&descAlignY=62&descSize=16"
-    width="100%"
-    alt="Header Banner"
-  />
+  
+<p align="center">
+  <img src="./banner.svg" width="100%" alt="Header Banner" />
+</p>
 
   <h2></h2>
 
-  <br>
-
- <a href="https://github.com/smallghost42/github-stats">
-  <img src="https://github.com/smallghost42/github-stats/blob/generated/overview.svg#gh-dark-mode-only" alt="GitHub Overview Stats" width="49%" />
-  <img src="https://github.com/smallghost42/github-stats/blob/generated/overview.svg#gh-light-mode-only" alt="GitHub Overview Stats" width="49%" />
-</a>
 
 <a href="https://github.com/smallghost42/github-stats">
   <img src="https://github.com/smallghost42/github-stats/blob/generated/contributions.svg#gh-dark-mode-only" alt="Contribution Breakdown" width="49%" />
-  <img src="https://github.com/smallghost42/github-stats/blob/generated/contributions.svg#gh-light-mode-only" alt="Contribution Breakdown" width="49%" />
 </a>
 
-  <br><br>
+<a href="https://github.com/smallghost42/github-stats">
+  <img src="https://github.com/smallghost42/github-stats/blob/generated/language-radar.svg#gh-dark-mode-only" alt="radar Breakdown" width="49%" />
+</a>
 
-  <p>
-    <img
-      src="https://skillicons.dev/icons?i=linux,git,docker,kubernetes,githubactions,aws,terraform,ansible,nginx,prometheus,grafana,go,python,c,cpp,typescript,bash"
-      alt="Tech Stack"
-    />
-  </p>
+ <a href="https://github.com/smallghost42/github-stats">
+  <img src="https://github.com/smallghost42/github-stats/blob/generated/overview.svg#gh-dark-mode-only" alt="GitHub Overview Stats" width="49%" />
+</a>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,git,githubactions,bash" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,ansible,nginx,prometheus,grafana" />
+</p>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=go,python,c,cpp,typescript" />
+</p>
 
   <br>
-
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0E1017&height=100&section=footer"
-    width="100%"
-    alt="Footer Banner"
-  />
+  
+<p align="center">
+  <img src="./footer.svg" width="100%" alt="Footer Banner" />
+</p>
 
 </div>
