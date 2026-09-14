@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" width="100%" height="100">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    
+    <!-- Laser Beam Gradient -->
+    <linearGradient id="laser-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3fb950" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="glow-green" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#3fb950" flood-opacity="0.8"/>
+    </filter>
+    <filter id="glow-blue" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#58a6ff" flood-opacity="0.8"/>
+    </filter>
+    <filter id="glow-purple" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#bc8cff" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="800" height="100" rx="10" fill="url(#footer-bg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Cyberpunk Grid Overlay -->
+  <pattern id="footer-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#21262d" stroke-width="1"/>
+  </pattern>
+  <rect width="800" height="100" rx="10" fill="url(#footer-grid)"/>
+
+  <!-- Terminal Session Closing Line -->
+  <g transform="translate(35, 38)">
+    <text font-family="'Courier New', monospace" font-size="12" fill="#8b949e">
+      <tspan fill="#7ee787">[INFO]</tspan> System deployment successful. All nodes operational.
+    </text>
+    <text y="22" font-family="'Courier New', monospace" font-size="13" fill="#7ee787">
+      smallghost@42<tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#8b949e">$</tspan> <tspan fill="#c9d1d9">exit 0</tspan>
+      <tspan fill="#58a6ff">█</tspan>
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- System Indicators (Right Side) -->
+  <g transform="translate(560, 32)">
+    <!-- Status Indicator 1 -->
+    <circle cx="10" cy="10" r="4" fill="#3fb950" filter="url(#glow-green)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="22" y="14" font-family="'Courier New', monospace" font-size="11" font-weight="600" fill="#c9d1d9">CLUSTER: HEALTHY</text>
+
+    <!-- Status Indicator 2 -->
+    <circle cx="10" cy="32" r="4" fill="#58a6ff" filter="url(#glow-blue)"/>
+    <text x="22" y="36" font-family="'Courier New', monospace" font-size="11" font-weight="600" fill="#c9d1d9">AUTO-SCALE: READY</text>
+  </g>
+
+  <!-- Bottom Glowing Pulse Bar -->
+  <line x1="15" y1="92" x2="785" y2="92" stroke="#21262d" stroke-width="2" stroke-linecap="round"/>
+  
+  <rect x="0" y="91" width="200" height="2" fill="url(#laser-grad)" filter="url(#glow-green)">
+    <animateTransform 
+      attributeName="transform" 
+      type="translate" 
+      from="-200,0" 
+      to="800,0" 
+      dur="3s" 
+      repeatCount="indefinite"/>
+  </rect>
+</svg>
