@@ -1,94 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="100%" height="140">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="120">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff"/>
       <stop offset="100%" stop-color="#bc8cff"/>
     </linearGradient>
-
-    <filter id="glow-blue" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#58a6ff" flood-opacity="0.8"/>
-    </filter>
-    <filter id="glow-green" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#3fb950" flood-opacity="0.8"/>
-    </filter>
-    <filter id="glow-purple" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#bc8cff" flood-opacity="0.8"/>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#58a6ff" flood-opacity="0.6"/>
     </filter>
   </defs>
 
-  <!-- Canvas Base -->
-  <rect width="800" height="140" rx="10" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+  <!-- Base -->
+  <rect width="800" height="120" rx="10" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Cyberpunk Grid Overlay -->
-  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#21262d" stroke-width="1"/>
-  </pattern>
-  <rect width="800" height="140" rx="10" fill="url(#grid)"/>
+  <!-- Subtle top accent line -->
+  <rect x="35" y="28" width="40" height="2" rx="1" fill="url(#accent)"/>
 
-  <!-- Top Line: Compact Terminal Prompt -->
-  <text x="35" y="32" font-family="'Courier New', monospace" font-size="12" fill="#7ee787">
-    smallghost@42<tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~/infrastructure</tspan><tspan fill="#8b949e">$</tspan> <tspan fill="#c9d1d9">./deploy.sh</tspan>
-  </text>
+  <!-- Name -->
+  <text x="35" y="54" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="url(#accent)" letter-spacing="-0.5">Fenohery</text>
 
-  <!-- Inline Identity -->
-  <text x="35" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="url(#text-grad)" letter-spacing="-0.5">Fenohery</text>
-  <text x="155" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#8b949e">Computer Science  ·  DevOps  ·  MLOps  ·  Cloud</text>
+  <!-- Tags -->
+  <text x="150" y="54" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="400" fill="#8b949e">CS · DevOps · MLOps · Cloud</text>
 
-  <!-- Top Right Compact Status Badge -->
-  <g transform="translate(650, 18)">
-    <rect width="115" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <circle cx="14" cy="11" r="3.5" fill="#3fb950" filter="url(#glow-green)">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  <!-- Terminal line -->
+  <text x="35" y="76" font-family="'Courier New', monospace" font-size="11" fill="#7ee787">▸</text>
+  <text x="50" y="76" font-family="'Courier New', monospace" font-size="11" fill="#8b949e">infrastructure as code — deploying</text>
+
+  <!-- Blinking cursor -->
+  <rect x="432" y="66" width="7" height="12" rx="1" fill="#7ee787">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Status pill — right side -->
+  <g transform="translate(660, 38)">
+    <rect width="105" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="11" r="3" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="25" y="14.5" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#7ee787" letter-spacing="1">PASSING</text>
+    <text x="28" y="15" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#7ee787" letter-spacing="0.5">AVAILABLE</text>
   </g>
 
-  <!-- Slim Pipeline Track -->
-  <line x1="80" y1="102" x2="720" y2="102" stroke="#21262d" stroke-width="2" stroke-linecap="round"/>
+  <!-- Bottom pipeline — minimal dots connected by a thin line -->
+  <line x1="35" y1="98" x2="765" y2="98" stroke="#21262d" stroke-width="1"/>
 
-  <!-- Moving Data Packets -->
-  <circle r="3" fill="#58a6ff" filter="url(#glow-blue)">
-    <animateMotion dur="2s" repeatCount="indefinite" path="M 80 102 L 290 102"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="35"  cy="98" r="3" fill="#58a6ff" filter="url(#glow)"/>
+  <circle cx="278" cy="98" r="3" fill="#3fb950"/>
+  <circle cx="522" cy="98" r="3" fill="#bc8cff"/>
+  <circle cx="765" cy="98" r="3" fill="#58a6ff" filter="url(#glow)"/>
 
-  <circle r="3" fill="#3fb950" filter="url(#glow-green)">
-    <animateMotion dur="2s" begin="0.66s" repeatCount="indefinite" path="M 290 102 L 500 102"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2s" begin="0.66s" repeatCount="indefinite"/>
-  </circle>
-
-  <circle r="3" fill="#bc8cff" filter="url(#glow-purple)">
-    <animateMotion dur="2s" begin="1.33s" repeatCount="indefinite" path="M 500 102 L 720 102"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2s" begin="1.33s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Minimal Pipeline Nodes -->
-  <!-- Source -->
-  <g transform="translate(80, 102)">
-    <circle r="7" fill="#0d1117" stroke="#58a6ff" stroke-width="2" filter="url(#glow-blue)"/>
-    <circle r="2" fill="#58a6ff"/>
-    <text y="20" font-family="'Courier New', monospace" font-size="10" font-weight="600" fill="#8b949e" text-anchor="middle">source</text>
-  </g>
-
-  <!-- Build -->
-  <g transform="translate(290, 102)">
-    <rect x="-6" y="-6" width="12" height="12" rx="3" fill="#0d1117" stroke="#3fb950" stroke-width="2" filter="url(#glow-green)"/>
-    <text y="20" font-family="'Courier New', monospace" font-size="10" font-weight="600" fill="#8b949e" text-anchor="middle">build</text>
-  </g>
-
-  <!-- Deploy -->
-  <g transform="translate(500, 102)">
-    <polygon points="0,-7 6,-3 6,3 0,7 -6,3 -6,-3" fill="#0d1117" stroke="#bc8cff" stroke-width="2" filter="url(#glow-purple)"/>
-    <text y="20" font-family="'Courier New', monospace" font-size="10" font-weight="600" fill="#8b949e" text-anchor="middle">deploy</text>
-  </g>
-
-  <!-- Cloud -->
-  <g transform="translate(720, 102)">
-    <path d="M -6 1 C -6 -2 -3 -4 0 -2 C 1 -5 5 -5 6 -2 C 9 -3 11 0 10 3 Z" fill="#0d1117" stroke="#58a6ff" stroke-width="2" filter="url(#glow-blue)"/>
-    <text y="20" font-family="'Courier New', monospace" font-size="10" font-weight="600" fill="#8b949e" text-anchor="middle">cloud</text>
-  </g>
+  <text x="35"  y="112" font-family="system-ui, sans-serif" font-size="8" fill="#484f58" text-anchor="middle">source</text>
+  <text x="278" y="112" font-family="system-ui, sans-serif" font-size="8" fill="#484f58" text-anchor="middle">build</text>
+  <text x="522" y="112" font-family="system-ui, sans-serif" font-size="8" fill="#484f58" text-anchor="middle">deploy</text>
+  <text x="765" y="112" font-family="system-ui, sans-serif" font-size="8" fill="#484f58" text-anchor="middle">cloud</text>
 </svg>
