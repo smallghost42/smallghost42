@@ -20,14 +20,7 @@
 </a>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,git,githubactions,bash" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,ansible,nginx,prometheus,grafana" />
-</p>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=go,python,c,cpp,typescript" />
+    <img src="./stack.svg" width="100%" alt="Footer Banner" />
 </p>
 
   <br>
