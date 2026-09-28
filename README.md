@@ -14,7 +14,7 @@
 <a href="https://github.com/smallghost42/github-stats">
   <img src="https://github.com/smallghost42/github-stats/blob/generated/language-radar.svg#gh-dark-mode-only" alt="radar Breakdown" width="49%" />
 </a>
-
+ <h2></h2>
  <a href="https://github.com/smallghost42/github-stats">
   <img src="https://github.com/smallghost42/github-stats/blob/generated/overview.svg#gh-dark-mode-only" alt="GitHub Overview Stats" width="49%" />
 </a>
