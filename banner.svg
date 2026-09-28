@@ -18,7 +18,7 @@
 <rect class="b" x=".5" y=".5" width="839" height="175" rx="6"/>
 <text class="sans fg" x="32" y="68" font-size="28" font-weight="600">Fenohery</text>
 <text class="mono mu" x="32" y="92" font-size="13">DevSecOps. Cloud, networks, infrastructure as code.</text>
-<rect class="b" x="716.5" y="44.5" width="92" height="24" rx="12"/><circle class="ok" cx="732" cy="56.5" r="3"/><text class="mono mu" x="743" y="60.5">available</text>
+<rect class="b" x="716.5" y="44.5" width="100" height="24" rx="12"/><circle class="ok" cx="732" cy="56.5" r="3"/><text class="mono mu" x="743" y="60.5">available</text>
 <line class="l" x1="128.0" y1="131.0" x2="168.0" y2="131.0"/><line class="pk ac" x1="128.0" y1="131.0" x2="168.0" y2="131.0" style="animation-delay:0.0s"/>
 <line class="l" x1="264.0" y1="131.0" x2="304.0" y2="131.0"/><line class="pk ac" x1="264.0" y1="131.0" x2="304.0" y2="131.0" style="animation-delay:0.8s"/>
 <line class="l" x1="400.0" y1="131.0" x2="440.0" y2="131.0"/><line class="pk ac" x1="400.0" y1="131.0" x2="440.0" y2="131.0" style="animation-delay:1.6s"/>
