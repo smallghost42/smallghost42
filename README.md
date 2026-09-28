@@ -25,8 +25,8 @@
 
   <br>
   
-<p align="center">
+<!-- <p align="center">
   <img src="./footer.svg" width="100%" alt="Footer Banner" />
-</p>
+</p> -->
 
 </div>
